@@ -145,7 +145,7 @@
   transform: rotate(90deg);
   margin-bottom: 8rem;
   color: var(--slate);
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 .parent-email {
   display: flex;
@@ -247,7 +247,7 @@
     height: 5rem;
     margin: 0 auto;
     font-size: 2rem;
-    margin-top: 3.5rem;
+    margin-top: 8rem;
   }
   .description {
     text-align: start;

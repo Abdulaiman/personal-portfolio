@@ -85,7 +85,6 @@ const Header: React.FC = (): JSX.Element => {
             <span>Abdulazeez,</span>
           </h1>
           <h1 className="name-2">Aiman.</h1>
-          <h1 className="build">I build apps for the web</h1>
           <p className="description">
             I am a fullstack MERN (Mongodb, express, react and node)
             developer...

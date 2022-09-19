@@ -1,0 +1,36 @@
+.skills-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--navy);
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.skill-container {
+  display: flex;
+  width: 60vw;
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.skill-icon {
+  color: var(--green);
+  font-size: 4rem;
+}
+.skill-text {
+  color: var(--slate);
+}
+@media screen and (max-width: 800px) {
+  .skill-container {
+    width: 80vw;
+  }
+}
