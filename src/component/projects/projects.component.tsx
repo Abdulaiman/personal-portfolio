@@ -2,7 +2,7 @@ import "./projects.styles.css";
 import img1 from "../../img/img1.png";
 import img2 from "../../img/img2.png";
 import img3 from "../../img/img3.png";
-import { FaBootstrap, FaNode, FaReact } from "react-icons/fa";
+import { FaBootstrap, FaGithub, FaNode, FaReact } from "react-icons/fa";
 import {
   SiExpress,
   SiMongodb,
@@ -13,7 +13,7 @@ import {
 
 const Projects: React.FC = (): JSX.Element => {
   return (
-    <div className="projects-section">
+    <div className="projects-section" id="projects">
       <div className="section-center">
         <div className="title">
           <h2 className="number number-section">03.</h2>
@@ -24,8 +24,6 @@ const Projects: React.FC = (): JSX.Element => {
         <div className="projects-container">
           <div className="project">
             <div className="project-img">
-              <div className="img-overlay"></div>
-              <div className="img-overlay-2"></div>
               <img src={img2} alt="bug tracker img" className="p-img" />
             </div>
             <div className="project-text">
@@ -36,6 +34,34 @@ const Projects: React.FC = (): JSX.Element => {
                 and Linkedin and also keep track of the application process with
                 a click of a button without having to do it manually.
               </h3>
+              <div className="click-container">
+                <a href="/" className="btn click">
+                  Live-site
+                </a>
+                <a href="/" className="btn click">
+                  Demo
+                </a>
+              </div>
+              <div className="click-container">
+                <a
+                  href="https://github.com/Abdulaiman/TYPSCRIPT_-_REACT_Job-search-and-tracker"
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="btn click"
+                >
+                  Front-End
+                  <FaGithub />
+                </a>
+                <a
+                  href="https://github.com/Abdulaiman/NODE__Job-search-and-tracker"
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="btn click"
+                >
+                  Back-End
+                  <FaGithub />
+                </a>
+              </div>
               <div className="tech-container">
                 <div className="tech-title">
                   <h3 className="tech">Technologies Used</h3>
@@ -100,6 +126,34 @@ const Projects: React.FC = (): JSX.Element => {
                 software also allow employees to make complaints anonymously and
                 the organization to pass notice to all employees.
               </h3>
+              <div className="click-container">
+                <a href="/" className="btn click">
+                  Live-site
+                </a>
+                <a href="/" className="btn click">
+                  Demo
+                </a>
+              </div>
+              <div className="click-container">
+                <a
+                  href="https://github.com/Abdulaiman/TYPESCRIPT-REACT-employee-management-system"
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="btn click"
+                >
+                  Front-End
+                  <FaGithub />
+                </a>
+                <a
+                  href="https://github.com/Abdulaiman/TYPESCRIPT_NODE-employee-management-system"
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="btn click"
+                >
+                  Back-End
+                  <FaGithub />
+                </a>
+              </div>
               <div className="tech-container">
                 <div className="tech-title">
                   <h3 className="tech">Technologies Used</h3>
@@ -153,8 +207,6 @@ const Projects: React.FC = (): JSX.Element => {
               </div>
             </div>
             <div className="project-img">
-              <div className="img-overlay"></div>
-              <div className="img-overlay-2"></div>
               <img src={img3} alt="bug tracker img" className="p-img" />
             </div>
           </div>
@@ -162,8 +214,6 @@ const Projects: React.FC = (): JSX.Element => {
         <div className="projects-container">
           <div className="project">
             <div className="project-img">
-              <div className="img-overlay last"></div>
-              <div className="img-overlay-2 last"></div>
               <img src={img1} alt="bug tracker img" className="p-img" />
             </div>
             <div className="project-text">
@@ -174,6 +224,34 @@ const Projects: React.FC = (): JSX.Element => {
                 production or testing and assign them to developers to get
                 fixed.
               </h3>
+              <div className="click-container">
+                <a href="/" className="btn click">
+                  Live-site
+                </a>
+                <a href="/" className="btn click">
+                  Demo
+                </a>
+              </div>
+              <div className="click-container">
+                <a
+                  href="https://github.com/Abdulaiman/REACT-bug-tracker-front-end"
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="btn click"
+                >
+                  Front-End
+                  <FaGithub />
+                </a>
+                <a
+                  href="https://github.com/Abdulaiman/NODE-bug-tracker-Back-End"
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="btn click"
+                >
+                  Back-End
+                  <FaGithub />
+                </a>
+              </div>
               <div className="tech-container">
                 <div className="tech-title">
                   <h3 className="tech">Technologies Used</h3>

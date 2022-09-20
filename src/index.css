@@ -18,6 +18,12 @@
     system-ui, sans-serif;
   --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
 }
+a {
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;

@@ -9,7 +9,7 @@ import "./skills.styles.css";
 
 const Skills: React.FC = (): JSX.Element => {
   return (
-    <div className="skills-section">
+    <div className="skills-section" id="skills">
       <div className="section-center">
         <div className="title">
           <h2 className="number number-section">02.</h2>

@@ -6,6 +6,7 @@ import {
   FaTwitter,
   FaRegWindowClose,
 } from "react-icons/fa";
+
 import "./header.styles.css";
 const Header: React.FC = (): JSX.Element => {
   const [open, setOpen] = useState(false);
@@ -24,16 +25,32 @@ const Header: React.FC = (): JSX.Element => {
               <FaRegWindowClose />
             </span>
             <div className="dropdown-icons">
-              <a href="/" className="dropdown-items">
+              <a
+                href="#about"
+                onClick={() => setOpen(false)}
+                className="dropdown-items"
+              >
                 <span className="number">01. </span>about
               </a>
-              <a href="/" className="dropdown-items">
+              <a
+                href="#skills"
+                onClick={() => setOpen(false)}
+                className="dropdown-items"
+              >
                 <span className="number">02. </span>skills
               </a>
-              <a href="/" className="dropdown-items">
+              <a
+                href="#projects"
+                onClick={() => setOpen(false)}
+                className="dropdown-items"
+              >
                 <span className="number">03. </span>projects
               </a>
-              <a href="/" className="dropdown-items">
+              <a
+                href="#contact"
+                onClick={() => setOpen(false)}
+                className="dropdown-items"
+              >
                 <span className="number">04. </span>contact
               </a>
 
@@ -51,16 +68,16 @@ const Header: React.FC = (): JSX.Element => {
           </a>
         </div>
         <div className="nav-icons">
-          <a href="/" className="nav-items">
+          <a href="#about" className="nav-items">
             <span className="number">01. </span>about
           </a>
-          <a href="/" className="nav-items">
+          <a href="#skills" className="nav-items">
             <span className="number">02. </span>skills
           </a>
-          <a href="/" className="nav-items">
+          <a href="#projects" className="nav-items">
             <span className="number">03. </span>projects
           </a>
-          <a href="/" className="nav-items">
+          <a href="#contact" className="nav-items">
             <span className="number">04. </span>contact
           </a>
           <button className="btn">resume</button>
@@ -89,16 +106,47 @@ const Header: React.FC = (): JSX.Element => {
             I am a fullstack MERN (Mongodb, express, react and node)
             developer...
           </p>
+          <div className="head-socials">
+            <a
+              href="https://twitter.com/Aiman_webdev"
+              target={"_blank"}
+              className="social-icons head-icons"
+              rel="noreferrer"
+            >
+              <FaTwitter />
+            </a>
+            <a
+              href="https://github.com/Abdulaiman"
+              rel="noreferrer"
+              target="_blank"
+              className="social-icons head-icons"
+            >
+              <FaGithub />
+            </a>
+            <a href="/" className="social-icons head-icons">
+              <FaLinkedin />
+            </a>
+          </div>
           <button className="btn hire">Hire me</button>
         </div>
       </div>
       <div className="parent-icons">
         <div className="icons">
           <div className="icons-container">
-            <a href="/" className="social-icons">
+            <a
+              href="https://twitter.com/Aiman_webdev"
+              target={"_blank"}
+              className="social-icons"
+              rel="noreferrer"
+            >
               <FaTwitter />
             </a>
-            <a href="/" className="social-icons">
+            <a
+              href="https://github.com/Abdulaiman"
+              rel="noreferrer"
+              target="_blank"
+              className="social-icons"
+            >
               <FaGithub />
             </a>
             <a href="/" className="social-icons">

@@ -1,0 +1,16 @@
+.footer-container {
+  width: 100vw;
+  min-height: 30vh;
+  background-color: var(--navy);
+  padding-top: 5rem;
+}
+.footer-text {
+  color: var(--dark-slate);
+}
+.contact-icons {
+  display: flex;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  justify-content: space-around;
+}

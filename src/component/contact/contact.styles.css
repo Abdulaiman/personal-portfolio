@@ -1,0 +1,38 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  text-align: start;
+  color: var(--lightest-slate);
+  font-family: var(--font-mono);
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+.input-name {
+  min-width: 20rem;
+  max-width: 35rem;
+  height: 2.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: var(--green);
+  color: var(--navy);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.text-area {
+  min-height: 15rem;
+  max-height: 20rem;
+}
+.submit {
+  width: 12.5rem;
+  font-size: 1.1rem;
+}
