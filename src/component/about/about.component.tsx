@@ -13,7 +13,7 @@ const About: React.FC = (): JSX.Element => {
             My name is Aiman, i am a fullstack web developer base in Lagos,
             Nigeria. my journey into tech began when i wanted to build a static
             website for a small business. i made some research and stumbled
-            across HTML and CSS which i absolutely fell in love with.
+            across HTML and CSS which i absolutely love.
           </p>
           <br />
           <br />
@@ -23,10 +23,12 @@ const About: React.FC = (): JSX.Element => {
             (React) and the Js runtime Node.js.
           </p>
           <br />
-          <p className="text">
+          <p className="text p-text">
             i am looking forward to learning and expanding my career.
           </p>
-          <button className="btn contact-btn">Contact Me</button>
+          <a href="#contact" className="btn contact-btn">
+            Contact Me
+          </a>
         </div>
       </div>
     </div>

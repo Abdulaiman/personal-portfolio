@@ -127,7 +127,7 @@ const Header: React.FC = (): JSX.Element => {
               <FaLinkedin />
             </a>
           </div>
-          <button className="btn hire">Hire me</button>
+          <a href='#contact' className="btn hire">Hire me</a>
         </div>
       </div>
       <div className="parent-icons">
