@@ -43,7 +43,10 @@ const Projects: React.FC = (): JSX.Element => {
                 >
                   Live-site
                 </a>
-                <a href="/" className="btn click">
+                <a
+                  href="https://www.youtube.com/watch?v=k2XLY81k6m0&t=4s"
+                  className="btn click"
+                >
                   Demo
                 </a>
               </div>
@@ -141,9 +144,9 @@ const Projects: React.FC = (): JSX.Element => {
                 >
                   Live-site
                 </a>
-                <a href="/" className="btn click">
+                {/* <a href="/" className="btn click">
                   Demo
-                </a>
+                </a> */}
               </div>
               <div className="click-container">
                 <a
@@ -244,7 +247,10 @@ const Projects: React.FC = (): JSX.Element => {
                 >
                   Live-site
                 </a>
-                <a href="/" className="btn click">
+                <a
+                  href="https://www.youtube.com/watch?v=k2XLY81k6m0&t=4s"
+                  className="btn click"
+                >
                   Demo
                 </a>
               </div>

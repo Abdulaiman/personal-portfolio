@@ -33,9 +33,9 @@ const Footer: React.FC = (): JSX.Element => {
         >
           <FaGithub />
         </a>
-        <a href="/" className="social-icons">
+        {/* <a href="/" className="social-icons">
           <FaLinkedin />
-        </a>
+        </a> */}
       </div>
     </div>
   );

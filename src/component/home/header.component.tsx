@@ -123,11 +123,13 @@ const Header: React.FC = (): JSX.Element => {
             >
               <FaGithub />
             </a>
-            <a href="/" className="social-icons head-icons">
+            {/* <a href="/" className="social-icons head-icons">
               <FaLinkedin />
-            </a>
+            </a> */}
           </div>
-          <a href='#contact' className="btn hire">Hire me</a>
+          <a href="#contact" className="btn hire">
+            Hire me
+          </a>
         </div>
       </div>
       <div className="parent-icons">
@@ -149,9 +151,9 @@ const Header: React.FC = (): JSX.Element => {
             >
               <FaGithub />
             </a>
-            <a href="/" className="social-icons">
+            {/* <a href="/" className="social-icons">
               <FaLinkedin />
-            </a>
+            </a> */}
           </div>
           <div className="line"></div>
         </div>
