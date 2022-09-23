@@ -54,7 +54,9 @@ const Header: React.FC = (): JSX.Element => {
                 <span className="number">04. </span>contact
               </a>
 
-              <button className="btn resume">resume</button>
+              <a href="resume.pdf" download="resume.pdf" className="btn resume">
+                resume
+              </a>
             </div>
           </div>
         </>
@@ -80,7 +82,9 @@ const Header: React.FC = (): JSX.Element => {
           <a href="#contact" className="nav-items">
             <span className="number">04. </span>contact
           </a>
-          <button className="btn">resume</button>
+          <a href="resume.pdf" download="resume.pdf" className="btn resumee">
+            resume
+          </a>
         </div>
 
         <div className="bars-container">
