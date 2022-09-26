@@ -10,10 +10,10 @@ const About: React.FC = (): JSX.Element => {
         </div>
         <div className="about-me">
           <p className="text">
-            My name is Aiman, i am a fullstack web developer base in Lagos,
-            Nigeria. my journey into tech began when i wanted to build a static
-            website for a small business. i made some research and stumbled
-            across HTML and CSS which i absolutely love.
+            My name is Aiman, i am a passionate fullstack software developer. my
+            journey into tech began when i wanted to build a static website for
+            a small business. i made some research and stumbled across HTML and
+            CSS which i absolutely love.
           </p>
           <br />
           <br />
